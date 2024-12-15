@@ -7,9 +7,9 @@ FEATURES:=ubifs squashfs fpu ramdisk nand pcie usbgadget
 CPU_TYPE:=cortex-a53
 CPU_SUBTYPE:=neon-vfpv4
 MAINTAINER:=John Crispin <blogic@openwrt.org>
-SUBTARGETS:=generic ipq53xx_32
+SUBTARGETS:=generic
 
-KERNELNAME:=zImage Image dtbs
+KERNELNAME:=Image dtbs
 LINUX_VERSION:=5.4
 
 include $(INCLUDE_DIR)/target.mk
