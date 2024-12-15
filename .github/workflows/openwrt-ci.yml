@@ -100,7 +100,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.RELEASE_TOKEN }}
-          release_name: date+"%Y%m%d%H%M"
+          release_name: $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           overwrite: true
