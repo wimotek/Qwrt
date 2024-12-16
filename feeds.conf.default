@@ -12,3 +12,4 @@ src-git telephony https://github.com/coolsnowwolf/telephony.git
 
 # luci-theme-ifit
 src-git ifit https://github.com/kenzok8/luci-theme-ifit.git
+src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git
